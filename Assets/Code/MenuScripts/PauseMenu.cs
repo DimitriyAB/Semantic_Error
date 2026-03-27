@@ -44,6 +44,12 @@ public class PauseMenu : MonoBehaviour
         Container.SetActive(false);
         Time.timeScale = 1;
         isPaused = false;
+
+        PlayerController player = FindFirstObjectByType<PlayerController>();
+        if (player != null)
+        {
+            player.ResetInput();
+        }
     }
 
 }
