@@ -5,6 +5,7 @@ public class PlayerController : MonoBehaviour
 {
     public Animator animator; 
     public float speed = 2f;
+    public VectorValue pos;
 
     private Rigidbody2D rb;
 
@@ -15,6 +16,8 @@ public class PlayerController : MonoBehaviour
 
     void Start()
     {
+        transform.position = pos.initialValue;
+
         rb = GetComponent<Rigidbody2D>();
         // Если animator не назначен в инспекторе, пробуем найти его на объекте
         if (animator == null)

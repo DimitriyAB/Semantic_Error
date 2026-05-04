@@ -14,7 +14,7 @@ PlayerSettings:
   accelerometerFrequency: 60
   companyName: Virtualis Stella
   productName: Semantic Error
-  defaultCursor: {fileID: 0}
+  defaultCursor: {fileID: 2800000, guid: e105a2791a0d93f4aa85f686ff275c50, type: 3}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
   m_ShowUnitySplashScreen: 1
