@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0d3daedf2341bd42befdabe563df341, type: 3}
   m_Name: PlayerPosition
   m_EditorClassIdentifier: Assembly-CSharp::VectorValue
-  initialValue: {x: -7.28, y: 7.319, z: 0}
+  initialValue: {x: -22.255, y: 16.675, z: 0}
